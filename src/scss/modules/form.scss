@@ -1,0 +1,56 @@
+.form-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-form {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.form {
+    width: 600px;
+}
+
+.form-item {
+    display: block;
+    width: 100%;
+}
+
+.form-item-story {
+    width: 100%;
+   height: 100px;
+}
+
+@media screen and (min-width: 767px) {
+
+    .form-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-form {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .form {
+        width: 600px;
+    }
+    
+    .form-item {
+        display: block;
+        width: 100%;
+    }
+    
+    .form-item-story {
+        width: 100%;
+       height: 100px;
+    }
+    
+}
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Michał Lesiak - my page</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation navigation--js">
+          <a class="navigation__button navigation__button--home" href="index.html">Strona domowa</a>
+          <a class="navigation__button" href="nauka-html.html">Nauka html</a>
+          <a class="navigation__button" href="nauka-css.html">Nauka css</a>
+          <a class="navigation__button" href="nauka-js.html">Nauka js</a>
+          <a class="navigation__button" href="form.html">Formularz kontaktowy</a>
+        </nav>
+        <button class="hamburger hamburger--js">MENU</button>
+      </header>
+      <main class="main-form">
+    <form method="post" action="https:/dev.cotenfrontend.pl" class="form">
+        <h1 >TAKI TAM FORMULARZ</h1>
+      <p>
+        <label
+          >Podaj Imię <input required class="form-item" type="text" id="firstName" name="firstName"
+        /></label>
+      </p>
+      <p>
+        <label>Podaj Nazwisko <input class="form-item" id="lastName" name="lastName" /></label>
+      </p>
+      <p>
+        <label>Podaj name <input class="form-item" id="name" name="name" /></label>
+      </p>
+      <p>
+        <label
+          >Ulubiona liczba
+          <input class="form-item" id="favouriteNumber" name="favouriteNumber" type="number"
+        /></label>
+      </p>
+      <p>
+        <label>Email <input class="form-item" id="email" name="email" type="email" /></label>
+      </p>
+      <p>
+        <label for="band">Wybierz jeden zespół: <select>
+            <option value="band1">Radiohead</option>
+            <option value="band2">Metalica</option>
+            <option value="band3">Nirvana</option>
+        </select>
+      </p>
+      <fieldset>
+        <legend>Adres:</legend>
+        <p>
+          <label>Ulica <input class="form-item" id="street" name="street" /></label>
+        </p>
+        <p>
+          <label>Miasto <input class="form-item" id="city" name="city" /></label>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Ulubiony smak lodów:</legend>
+        <p>
+          <label>
+            <input 
+              type="radio"
+              id="icecream"
+              name="icecream"
+              value="chocolate"
+            />Czekolada</label
+          >
+        </p>
+        <p>
+          <label>
+            <input 
+              type="radio"
+              id="icecream"
+              name="icecream"
+              value="strawberry"
+            />Truskawka</label
+          >
+        </p>
+        <p>
+          <label>
+            <input 
+              type="radio"
+              id="icecream"
+              name="icecream"
+              value="vanilla"
+            />Wanilia</label
+          >
+        </p>
+      </fieldset>
+      <p>
+        <label for="yourStory">Twoja historia
+            <textarea class="form-item-story" id="yourStory" name="yourStory"></textarea>
+ </label>
+      <p>
+        <label
+          ><input
+            type="checkbox"
+            checked
+            name="agreement"
+            value="agree"
+          />Zgadzam się</label>
+
+
+      </p>
+
+      <p>
+        <input name="submit" type="submit" value="Send" />
+      </p>
+    </form>
+</main>
+  </body>
+</html>
