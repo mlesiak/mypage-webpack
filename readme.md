@@ -1,4 +1,4 @@
-![cover](../homepage-avatar/avatar.png)
+![avatar](homepage-avatar/avatar.PNG)
 
 # My Homepage
 
